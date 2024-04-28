@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-task3",
+  "version": "1.0.0",
+  "description": "simple webserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script": "node index.js",
+    "dev":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinoth9598/nodejs_task3.git"
+  },
+  "author": "vinoth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinoth9598/nodejs_task3/issues"
+  },
+  "homepage": "https://github.com/vinoth9598/nodejs_task3#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
